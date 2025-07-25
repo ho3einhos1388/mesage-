@@ -8,13 +8,14 @@ body {
   background-color: #ffd9c4;
   margin: 0;
   padding: 40px;
+  height: 100vh;
 }
 .container {
-  max-width: 360px;
+  height: 95%;
   margin: auto;
   border-radius: 16px;
   background-color: white;
-  padding: 16px;
+  padding: 20px;
   position: relative;
 }
 .header {
@@ -45,7 +46,6 @@ body {
   object-fit: cover;
 }
 .under {
-  display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #eee;
   padding: 10px 0;
@@ -95,4 +95,9 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+.svg {
+  display: flex;
+  flex-direction: row;
+
 }
